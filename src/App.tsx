@@ -19,10 +19,10 @@ function App() {
                 <h1 className="md:text-[40px]  pl-[5%] font-bold text-[30px]">
                     As Crônicas de Nárnia
                 </h1>
-                <h1 className="md:text-[40px] font-bold text-yellow-300 md:pl-[38%]  pl-[5%] text-[30px]">
+                <h1 className="md:text-[40px] font-bold text-yellow-300 md:pl-[38%]  pl-[5%] text-[30px] lg:pl-[25%]">
                     Triologia
                 </h1>
-                <div className="flex gap-[10px] text-xs font-bold pl-[5%] w-[100%] mb-[20px] mt-[20px]  text-gray-200">
+                <div className="flex gap-[10px] text-xs font-bold pl-[5%] w-[100%] mb-[20px] mt-[20px]  text-gray-400">
                     <span>DRAMA</span>
                     <span>FANTASIA</span>
                     <span>AVENTURA</span>
@@ -56,10 +56,10 @@ function App() {
                         uma narrativa que encanta diferentes gerações.
                     </p>
                 </section>
-                <button className="bg-yellow-300 border-none font-bold p-1 rounded-[5px] text-black w-[60%] mx-auto text-center flex justify-center items-center text-xl mt-2 md:w-[20%] md:p-2 md:mr-[75%] m-6">
+                <button className="bg-yellow-300 border-none font-bold p-1 rounded-[5px] text-black w-[60%] mx-auto text-center flex justify-center items-center text-xl mt-2 md:w-[20%] md:p-2 md:mr-[75%] m-6 cursor-pointer  hover:bg-yellow-400 lg:w-[15%] lg:ml-[5%]">
                     Assistir trilogia
                 </button>
-                <div className="flex flex-col gap-3 itens-center justify-center m-auto">
+                <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:w-[95%] m-auto rounded-[5px]">
                     <Card
                         capa={filme1}
                         tags={["FANTASIA", "AVENTURA"]}
