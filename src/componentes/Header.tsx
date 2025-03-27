@@ -9,7 +9,7 @@ function Header({ logo }: IHeader) {
         <>
             <header className="bg-black lg:flex items-center justify-between w-full p-1">
                 <div className="flex items-center justify-between w-full lg:w-auto">
-                    <img className="w-[22%]" src={logo} alt="logo" />
+                    <img className="w-[22%] md:w-[8%]" src={logo} alt="logo" />
                     <BsList className="text-white text-3xl lg:hidden" />
                 </div>
                 <nav>

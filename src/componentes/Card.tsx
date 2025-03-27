@@ -17,8 +17,12 @@ function Card({ capa, tags, titulo, avaliacao, descricao }: ICard) {
 
     return (
         <>
-            <section className="Cards bg-black text-white flex w-[95%]  justify-center  m-2">
-                <img className="capa w-[120px]" src={capaState} alt="capa" />
+            <section className="Cards bg-black text-white flex w-[95%]  justify-center m-auto">
+                <img
+                    className="capa w-[120px] md:w-[140px]"
+                    src={capaState}
+                    alt="capa"
+                />
                 <div className="p-2 flex gap-1 flex-col">
                     <div className="minhasTags flex text-[12px]">
                         <ul className="flex gap-2 text-gray-200 font-bold">
@@ -33,7 +37,7 @@ function Card({ capa, tags, titulo, avaliacao, descricao }: ICard) {
 
                     <p>IMDB: {avaliacaoState}</p>
                     <p className="line-clamp-3">{descricaoState}</p>
-                    <button className="bg-yellow-300 font-bold text-black rounded-[5px] mt-1 w-[40%]">
+                    <button className="bg-yellow-300 font-bold text-black rounded-[5px] mt-1 w-[40%] md:w-[15%] md:p-2">
                         Assistir
                     </button>
                 </div>
