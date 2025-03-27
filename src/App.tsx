@@ -4,6 +4,9 @@ import Card from "./componentes/Card";
 import Footer from "./componentes/Footer";
 import logo from "./assets/logo.jpg";
 import imgPrincipal from "./assets/imgPrincipal.jpeg";
+import filme1 from "./assets/filme1.jpg";
+import filme2 from "./assets/filme2.jpg";
+import filme3 from "./assets/filme3.jpg";
 
 function App() {
     return (
@@ -56,10 +59,30 @@ function App() {
                 <button className="bg-yellow-300 border-none font-bold p-1 rounded-[5px] text-black w-[60%] mx-auto text-center flex justify-center items-center text-xl mt-2">
                     Assistir trilogia
                 </button>
-
-                <Card />
             </main>
+            <Card
+                capa={filme1}
+                tags={["FANTASIA", "AVENTURA"]}
+                titulo="As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa"
+                avaliacao={6.9}
+                descricao="Durante os bombardeios da Segunda Guerra Mundial de Londres, quatro irmãos ingleses são enviados para uma casa de campo onde eles estarão seguros. Um dia, Lucy encontra um guarda-roupa que a transporta para um mundo mágico chamado Nárnia. Depois de voltar, ela logo volta a Nárnia com seus irmãos, Peter e Edmund, e sua irmã, Susan. Lá eles se juntam ao leão mágico, Aslan, na luta contra a Feiticeira Branca."
+            />
 
+            <Card
+                capa={filme2}
+                tags={["INFANTIL", "AVENTURA"]}
+                titulo="As Crônicas de Nárnia: O Príncipe Caspian"
+                avaliacao={6.5}
+                descricao="Após os eventos de O Leão, a Feiticeira e o Guarda-Roupa, os irmãos Pevensie retornam a Nárnia e descobrem que se passaram centenas de anos. Nárnia está sob o domínio dos Telmarinos, e o rei Miraz usurpou o trono. O verdadeiro herdeiro, o Príncipe Caspian, foge para reunir um exército e libertar a terra. Com a ajuda dos Pevensie e de Aslam, Caspian luta para retomar o trono. Juntos, enfrentam batalhas e traições para restaurar a liberdade e a paz em Nárnia."
+            />
+
+            <Card
+                capa={filme3}
+                tags={["INFANTIL", "AVENTURA"]}
+                titulo="As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada"
+                avaliacao={6.3}
+                descricao="os irmãos Edmund e Lucy Pevensie, junto com seu primo Eustáquio, embarcam em uma aventura a bordo do navio Peregrino da Alvorada, comandado por Caspian. Eles viajam por ilhas misteriosas em busca de sete Lords Telmarinos desaparecidos. Durante a jornada, enfrentam desafios, criaturas fantásticas e forças das trevas. Encontro com Aslam guia os personagens em suas escolhas, restaurando a ordem em Nárnia. O filme explora temas de coragem, redenção e crescimento pessoal."
+            />
             <Footer />
         </>
     );
