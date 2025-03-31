@@ -41,8 +41,7 @@
 **Versão mobile**
 <br>
 ![tela 3 ](tela3.png)
-<br><br> <br>
-![tela 4 ](fotos/tela4.png)
+![tela 4 ](tela4.png)
 
 </div>
 
