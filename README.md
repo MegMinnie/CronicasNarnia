@@ -29,18 +29,18 @@
 
   
   ## Como Acessar a Aplicação
-<p>Acesse a aplicação por meio do link: <a href="https://megminnie.github.io/Home-Akame-ga-Kill/
+<p>Acesse a aplicação por meio do link: <a href="https://cronicas-narnia.vercel.app/
 "_blank">clique aqui</a></p>
 
 ## Screenshots
 **Versão desktop**
-![tela 1 ](fotos/tela1.png)
+![tela 1 ](tela1.png)
 <br><br> <br>
-![tela 2 ](fotos/tela2.png)
+![tela 2 ](tela2.png)
 <br>
 **Versão mobile**
 <br>
-![tela 3 ](fotos/tela3.png)
+![tela 3 ](tela3.png)
 <br><br> <br>
 ![tela 4 ](fotos/tela4.png)
 
